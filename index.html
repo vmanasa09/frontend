@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic Website</title>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header Section -->
+<section id="header" class="header">
+    <a href="#" class="logo"><i class="fas fa-female"></i> Cosmetics</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#message">Contact</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+</section>
+<!-- Header Section Ends -->
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="slide active" style="background: url('img/home-bg-1.jpg') no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>Forever <br> Beautiful</span>
+            <h3>Experience timeless beauty with our premium cosmetics.</h3>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background: url('img/home-bg-2.jpg') no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>Forever <br> Beautiful</span>
+            <h3>Transform your skincare routine with us.</h3>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background: url('img/home-bg-3.jpg') no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>Forever <br> Beautiful</span>
+            <h3>Enhance your natural beauty with our products.</h3>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+    </div>
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+</section>
+<!-- Home Section Ends -->
+
+<!-- Category Section -->
+<section class="category">
+    <div class="box-container">
+        <a href="#" class="box">
+            <img decoding="async" src="img/category-1.png" alt="Skincare">
+            <h3>Skincare</h3>
+        </a>
+        <a href="#" class="box">
+            <img decoding="async" src="img/category-2.png" alt="Lips">
+            <h3>Lips</h3>
+        </a>
+        <a href="#" class="box">
+            <img decoding="async" src="img/category-3.png" alt="Hair">
+            <h3>Hair</h3>
+        </a>
+        <a href="#" class="box">
+            <img decoding="async" src="img/category-4.png" alt="Eye">
+            <h3>Eyes</h3>
+        </a>
+        <a href="#" class="box">
+            <img decoding="async" src="img/category-5.png" alt="Makeup">
+            <h3>Makeup</h3>
+        </a>
+        <a href="#" class="box">
+            <img decoding="async" src="img/category-6.png" alt="Fragrance">
+            <h3>Fragrance</h3>
+        </a>
+    </div>
+</section>
+<!-- Category Section Ends -->
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="img">
+        <img decoding="async" src="img/about-img.jpg" alt="About Us Image">
+    </div>
+    <div class="content">
+        <div class="box">
+            <h3>About <span>Us</span></h3>
+            <p>We are passionate about beauty. Explore our collection of premium cosmetics designed to enhance your natural glow and confidence.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-address-card"></i>
+                <p>Contact Us</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-award"></i>
+                <p>Award-Winning</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-gift"></i>
+                <p>Exclusive Offers</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section Ends -->
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a class="link" href="#home"><i class="fas fa-angle-right"></i> Home</a>
+            <a class="link" href="#about"><i class="fas fa-angle-right"></i> About</a>
+            <a class="link" href="#shop"><i class="fas fa-angle-right"></i> Shop</a>
+            <a class="link" href="#gallery"><i class="fas fa-angle-right"></i> Gallery</a>
+            <a class="link" href="#message"><i class="fas fa-angle-right"></i> Contact</a>
+            <a class="link" href="#blogs"><i class="fas fa-angle-right"></i> Blogs</a>
+        </div>
+        <div class="box">
+            <h3>Additional Links</h3>
+            <a class="link" href="#"><i class="fas fa-angle-right"></i> Favorites</a>
+            <a class="link" href="#"><i class="fas fa-angle-right"></i> Orders</a>
+            <a class="link" href="#"><i class="fas fa-angle-right"></i> Wishlist</a>
+            <a class="link" href="#"><i class="fas fa-angle-right"></i> Privacy Policy</a>
+            <a class="link" href="#"><i class="fas fa-angle-right"></i> Terms of Use</a>
+        </div>
+        <div class="box">
+            <h3>Contact Information</h3>
+            <a class="link" href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+            <a class="link" href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
+            <a class="link" href="#"><i class="fas fa-envelope"></i> support@cosmetics.com</a>
+            <a class="link" href="#"><i class="fas fa-map"></i> Mumbai, India - 401203</a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section Ends -->
+
+</body>
+</html>
